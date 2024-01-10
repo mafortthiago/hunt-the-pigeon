@@ -1,0 +1,39 @@
+main {
+  background: url("../images/cloud_background.png");
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.panel {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  width: 150px;
+  height: 150px;
+}
+.enemy {
+  background-image: url("../images/pigeon.png");
+  background-size: cover;
+}
+.menu-lives {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-lives img {
+  width: 40px;
+  margin-right: 6px;
+}
